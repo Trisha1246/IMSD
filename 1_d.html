@@ -1,0 +1,63 @@
+<DOCTYPE html>
+<html lang="en">
+<head>
+  <meta chearset="UTF-8">
+  <title>Thumbnail Image Gallery</title>
+<style>
+   body {
+     font-family: Arial, sans-serif;
+     text-align: center;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+ margin-top: 20px;
+}
+.gallery a img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  transition: transform 0.3s;
+}
+.gallery a img:hover {
+   transform: scale(1.1);
+   border-color: #666;
+}
+</style>
+</head>
+<body>
+
+    <h1>MY IMAGE GALLERY</h1>
+    <p>click on a thumbnail to view the full-sized image</p>
+              
+   <div class="gallery">
+      <a href="C:\Users\Kolla\OneDrive\Pictures\Camera Roll\mee.jpg" target="_blank">
+         <img src="C:\Users\Kolla\OneDrive\Pictures\Camera Roll\mee.jpg" alt="Image 1">
+      </a>
+      <a href= "C:\Users\Kolla\OneDrive\Pictures\Camera Roll\anu.jpg"target="_blank">
+         <img src= "C:\Users\Kolla\OneDrive\Pictures\Camera Roll\anu.jpg" alt="Image 2">
+      </a>
+      <a href= "C:\Users\Kolla\OneDrive\Pictures\Camera Roll\dhana.jpg"target="_blank">
+         <img src="C:\Users\Kolla\OneDrive\Pictures\Camera Roll\dhana.jpg"alt="Image 3">
+      </a>
+      <a href= "C:\Users\Kolla\OneDrive\Pictures\Camera Roll\lord shiva.jpeg" target="_blank">
+         <img src= "C:\Users\Kolla\OneDrive\Pictures\Camera Roll\lord shiva.jpeg"alt="Image 4">
+      </a>
+      <a href= "C:\Users\Kolla\OneDrive\Pictures\Camera Roll\oppo.jpeg" target="_blank">
+         <img src="C:\Users\Kolla\OneDrive\Pictures\Camera Roll\oppo.jpeg"alt="Image 5">
+      </a>
+     </div>
+  </body>
+  </html>
+
+
+
+
+
+
+
+
