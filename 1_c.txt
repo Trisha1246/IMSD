@@ -1,0 +1,11 @@
+<html>>
+<head>
+<title>mee</title>
+</head>
+<body bgcolor="red">
+<h1>My profile and my friend's profile</h1>
+<a href=https://www.linkedin.com/in/kolla-trisha-b02768341?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app>
+<img align src = "C:\Users\Kolla\OneDrive\Pictures\Camera Roll\mee.jpg" alt="your profile"width="150" height="150">
+</a>
+</body>
+</html>
